@@ -8,7 +8,6 @@
   <?php
    
       
-      @$db = new mysqli('localhost', 'messageWebUser', 'Amn505050', 'MessageDB');
   
  if (mysqli_connect_errno()){
     echo '<p>Error: Could not connect to database. </br> 
